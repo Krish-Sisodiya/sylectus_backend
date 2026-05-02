@@ -32,7 +32,7 @@ public class JobEmailService {
         MimeMessageHelper helper =
                 new MimeMessageHelper(msg, true);
 
-        helper.setTo("krishsisodiya7389@gmail.com");
+        helper.setTo("connect.sylekttus@gmail.com");
 
         helper.setSubject("🚀 New Employee Application Received");
 

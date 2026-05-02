@@ -16,7 +16,7 @@ public class EmailService {
         SimpleMailMessage message = new SimpleMailMessage();
 
         // Jise email bhejna hai (Founder Email)
-        message.setTo("founder-email@gmail.com");
+        message.setTo("connect.sylektus@gmail.com");
 
         // Subject line thodi catchy rakhte hain
         message.setSubject("New Project Inquiry from: " + appointment.getFullName());
@@ -37,7 +37,7 @@ public class EmailService {
         message.setText(body);
 
         // Aapka sender email (application.properties wala)
-        message.setFrom("aapka-email@gmail.com");
+        message.setFrom("krishsisodiya7389@gmail.com");
 
         try {
             mailSender.send(message);
